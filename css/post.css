@@ -3,10 +3,16 @@
   font-size: 0.8rem;
 }
 
+/* unique to this page*/
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 /* make the post section a flexbox with picture and contents equally split the view */
 .post-section {
   width: 70%;
-  height: 60vh;
+  height: 55vh;
   border: 1px solid rgb(211, 206, 206);
   display: flex;
 }
@@ -53,6 +59,7 @@
   font-size: 2rem;
   font-weight: 600;
   color:#FF9F55;
+  /* color: #41881C; */
   padding-bottom: 15px;
   padding-top: 15px;
 }
