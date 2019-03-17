@@ -1,10 +1,11 @@
-@import './post.css';
-@import './landing.css';
+@import './post-block.css';
+@import './blog-landing.css';
 * {
   margin: 0;
   padding: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  color: rgb(143, 142, 142);
+  /* color: rgb(143, 142, 142); */
+  color: #262D2D;
 }
 
 a {

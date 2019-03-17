@@ -1,0 +1,87 @@
+/* global css */
+.post-section .small-font {
+  font-size: 0.8rem;
+}
+
+/* unique to this page*/
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* make the post section a flexbox with picture and contents equally split the view */
+.post-section {
+  width: 70%;
+  height: 55vh;
+  border: 1px solid rgb(211, 206, 206);
+  display: flex;
+}
+
+/* set the left section a background image for the photo. 
+(alternatively, consider an img tag within a div, set the height and width of the img) */
+.post-section .photo {
+  width: 50%;
+  height:auto;
+  background: url(../img/post1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+/* set the right section a flexbox */
+.post {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+}
+
+/* flexbox for post date, post reading time */
+.post-section .date-time {
+  display: flex;
+  justify-content: flex-start;;
+  align-items: center;
+}
+
+.post-section .dot {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background: #CCCCCC;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/* main content section of the post */
+.post-section .title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color:#FF9F55;
+  /* color: #41881C; */
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.post-section .text {
+  padding-bottom: 2rem;
+}
+
+.post-section .post-footer {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-section .footer-text {
+  display: flex;
+}
+
+.post-section .comment {
+  padding-left: 20px;
+}
+
+.post-section .fa-heart {
+  color: #e84a43;
+}
